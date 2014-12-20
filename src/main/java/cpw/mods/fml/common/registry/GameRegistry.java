@@ -427,8 +427,7 @@ public class GameRegistry
     }
     /**
      * Look up the mod identifier data for a block.
-     * Returns null if there is no mod specified mod identifier data, or it is part of a
-     * custom itemstack definition {@link #registerCustomItemStack}
+     * Returns null if there is no mod specified mod identifier data.
      *
      * Note: uniqueness and persistence is only guaranteed by mods using the game registry
      * correctly.
@@ -442,8 +441,7 @@ public class GameRegistry
     }
     /**
      * Look up the mod identifier data for an item.
-     * Returns null if there is no mod specified mod identifier data, or it is part of a
-     * custom itemstack definition {@link #registerCustomItemStack}
+     * Returns null if there is no mod specified mod identifier data.
      *
      * Note: uniqueness and persistence is only guaranteed by mods using the game registry
      * correctly.
