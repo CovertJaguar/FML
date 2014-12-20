@@ -223,11 +223,6 @@ public class GameData {
         if (block == null) return null;
         String name = getMain().iBlockRegistry.getNameForObject(block);
         UniqueIdentifier ui = new UniqueIdentifier(name);
-        if (customItemStacks.contains(ui.modId, ui.name))
-        {
-            return null;
-        }
-
         return ui;
     }
 
@@ -236,11 +231,6 @@ public class GameData {
         if (item == null) return null;
         String name = getMain().iItemRegistry.getNameForObject(item);
         UniqueIdentifier ui = new UniqueIdentifier(name);
-        if (customItemStacks.contains(ui.modId, ui.name))
-        {
-            return null;
-        }
-
         return ui;
     }
 
